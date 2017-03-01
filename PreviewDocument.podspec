@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PreviewDocument'
-  s.version          = '2.0'
+  s.version          = '1.0'
   s.summary          = 'This is a document preview encapsulation.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ This is a preview for various file encapsulation.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'MaoJianxiang' => '15208105440@163.com' }
-  s.source           = { :git => 'https://github.com/MaoJianxiang/PreviewDocument.git', :tag => 2.0 }
+  s.source           = { :git => 'https://github.com/MaoJianxiang/PreviewDocument.git', :tag => 1.0 }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
