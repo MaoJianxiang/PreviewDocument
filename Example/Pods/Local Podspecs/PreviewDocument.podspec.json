@@ -1,0 +1,22 @@
+{
+  "name": "PreviewDocument",
+  "version": "0.1.0",
+  "summary": "A short description of PreviewDocument.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15208105440@163.com/PreviewDocument",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15208105440@163.com": "15208105440@163.com"
+  },
+  "source": {
+    "git": "https://github.com/15208105440@163.com/PreviewDocument.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PreviewDocument/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module PreviewDocument {
+  umbrella header "PreviewDocument-umbrella.h"
+
+  export *
+  module * { export * }
+}
