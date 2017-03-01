@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'PreviewDocument_Example' do
+  pod 'PreviewDocument', :path => '../'
+
+  target 'PreviewDocument_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
