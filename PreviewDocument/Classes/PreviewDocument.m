@@ -11,7 +11,7 @@
 @interface PreviewDocument()<UIDocumentInteractionControllerDelegate>
 @property(nonatomic,strong)UIDocumentInteractionController *documentPreviewController;
 @property(assign,nonatomic)CGRect viewFrame;
-@property(strong,nonatomic)UIViewController *preController;
+@property(weak,nonatomic)UIViewController *preController;//用weak,以防止循环引用
 
 @end
 
@@ -71,10 +71,7 @@
 //执行查看
 -(void)presentPreviewInview:(CGRect)frame  controller:(UIViewController *)controller Animated:(BOOL)animated{
     self.viewFrame=frame;
-    
-    __weak typeof(UIViewController *) weakController= controller;
-    __strong typeof(UIViewController *) strongController = weakController;
-    self.preController= strongController;
+    self.preController = controller;
     [self.documentPreviewController presentPreviewAnimated:animated];
 }
 

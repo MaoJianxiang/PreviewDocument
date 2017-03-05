@@ -11,13 +11,13 @@
 
 typedef NS_ENUM(NSInteger,DocumentType){
     DocumentWordType,//Word文档
-    DocumentExcelType,
-    DocumentTextType,
-    DocumentPPTType,
-    DocumentPDFType,
-    DocumentZipType,
-    DocumentImageType,
-    DocumentOtherType
+    DocumentExcelType,//Excel文档
+    DocumentTextType,//Text文档
+    DocumentPPTType,//PPT文档
+    DocumentPDFType,//PDF文档
+    DocumentZipType,//Zip文档
+    DocumentImageType,//图片文档
+    DocumentOtherType //未知文档，有可能会打开失败
 };
 
 @interface PreviewDocument : NSObject
